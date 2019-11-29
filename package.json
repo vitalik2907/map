@@ -15,7 +15,7 @@
         "typescript": "3.5.3"
     },
     "scripts": {
-        "built": "webpack -p",
+        "build": "webpack -p",
         "watch": "webpack --watch",
         "predeploy": "npm run build",
         "deploy": "gh-pages -d build"
